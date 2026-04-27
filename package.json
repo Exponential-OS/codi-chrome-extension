@@ -1,0 +1,30 @@
+{
+  "name": "co-dialectic-chrome-extension",
+  "version": "0.1.0",
+  "description": "Co-Dialectic Chrome Extension — LLM prompt optimizer + hallucination detector across AI chat web apps. Sharpens vague prompts, flags fabricated citations, audits sycophancy. Free, open source, on-device.",
+  "license": "AGPL-3.0",
+  "author": "Anand Vallamsetla <avallam@thewhyman.com> (https://thewhyman.com)",
+  "homepage": "https://thewhyman.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thewhyman/codi-chrome-extension"
+  },
+  "bugs": {
+    "url": "https://github.com/thewhyman/anand-career-os/issues"
+  },
+  "scripts": {
+    "lint:manifest": "node -e \"JSON.parse(require('fs').readFileSync('manifest.json','utf8')); console.log('manifest.json: valid JSON')\"",
+    "package": "zip -r co-dialectic-chrome-extension.zip . -x '.git/*' -x 'node_modules/*' -x '*.zip' -x '.DS_Store'",
+    "build": "echo 'No build step required for vanilla Manifest V3'"
+  },
+  "keywords": [
+    "chrome-extension",
+    "manifest-v3",
+    "ai",
+    "llm",
+    "prompt-engineering",
+    "hallucination-detection",
+    "co-dialectic"
+  ],
+  "private": false
+}

@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Co-Dialectic</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <main class="codi-popup" aria-labelledby="codi-title">
+      <header class="codi-header">
+        <div class="codi-logo" aria-hidden="true">codi</div>
+        <div class="codi-title-block">
+          <h1 id="codi-title">Co-Dialectic</h1>
+          <p class="codi-version">v<span id="codi-version">0.1.0</span></p>
+        </div>
+      </header>
+
+      <section class="codi-status" aria-live="polite">
+        <span class="codi-status-dot" id="codi-status-dot" data-state="unknown"></span>
+        <span class="codi-status-text" id="codi-status-text">Checking this tab…</span>
+      </section>
+
+      <section class="codi-description">
+        <p>
+          Sharpens vague prompts, flags fabricated citations, and audits
+          sycophancy across AI chat web apps. Free, open source, on-device.
+        </p>
+      </section>
+
+      <section class="codi-actions">
+        <button
+          type="button"
+          id="codi-open-settings"
+          class="codi-button codi-button-primary"
+        >
+          Open settings
+        </button>
+        <a
+          id="codi-github-link"
+          class="codi-button codi-button-secondary"
+          href="https://github.com/thewhyman/codi-chrome-extension"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          View on GitHub
+        </a>
+      </section>
+
+      <footer class="codi-footer">
+        <p>All processing happens on-device. No data leaves your machine.</p>
+      </footer>
+    </main>
+
+    <script src="popup.js"></script>
+  </body>
+</html>

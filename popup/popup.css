@@ -1,0 +1,183 @@
+/**
+ * Co-Dialectic popup styles (v0.1.0 scaffold).
+ * Vanilla CSS, no dependencies. Sized for Chrome's default popup width.
+ */
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 320px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  font-size: 13px;
+  line-height: 1.4;
+  color: #0f172a;
+  background-color: #ffffff;
+}
+
+.codi-popup {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 16px;
+}
+
+.codi-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.codi-logo {
+  width: 40px;
+  height: 40px;
+  display: grid;
+  place-items: center;
+  border-radius: 10px;
+  background: linear-gradient(135deg, #0f172a, #1e293b);
+  color: #ffffff;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  font-size: 12px;
+}
+
+.codi-title-block h1 {
+  margin: 0;
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+}
+
+.codi-version {
+  margin: 2px 0 0;
+  color: #64748b;
+  font-size: 11px;
+}
+
+.codi-status {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 10px;
+  border-radius: 8px;
+  background-color: #f1f5f9;
+  font-size: 12px;
+}
+
+.codi-status-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #94a3b8;
+  flex-shrink: 0;
+}
+
+.codi-status-dot[data-state="active"] {
+  background-color: #16a34a;
+}
+
+.codi-status-dot[data-state="inactive"] {
+  background-color: #94a3b8;
+}
+
+.codi-status-dot[data-state="error"] {
+  background-color: #dc2626;
+}
+
+.codi-status-text {
+  color: #334155;
+}
+
+.codi-description p {
+  margin: 0;
+  color: #475569;
+  font-size: 12px;
+}
+
+.codi-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.codi-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 32px;
+  padding: 0 12px;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  font: inherit;
+  font-size: 12px;
+  font-weight: 500;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background-color 120ms ease, border-color 120ms ease;
+}
+
+.codi-button-primary {
+  background-color: #0f172a;
+  color: #ffffff;
+}
+
+.codi-button-primary:hover {
+  background-color: #1e293b;
+}
+
+.codi-button-secondary {
+  background-color: #ffffff;
+  color: #0f172a;
+  border-color: #cbd5e1;
+}
+
+.codi-button-secondary:hover {
+  background-color: #f8fafc;
+  border-color: #94a3b8;
+}
+
+.codi-footer {
+  border-top: 1px solid #e2e8f0;
+  padding-top: 10px;
+}
+
+.codi-footer p {
+  margin: 0;
+  font-size: 11px;
+  color: #64748b;
+}
+
+@media (prefers-color-scheme: dark) {
+  html,
+  body {
+    color: #e2e8f0;
+    background-color: #0f172a;
+  }
+  .codi-status {
+    background-color: #1e293b;
+  }
+  .codi-status-text {
+    color: #cbd5e1;
+  }
+  .codi-description p {
+    color: #cbd5e1;
+  }
+  .codi-button-secondary {
+    background-color: #1e293b;
+    color: #e2e8f0;
+    border-color: #334155;
+  }
+  .codi-button-secondary:hover {
+    background-color: #334155;
+  }
+  .codi-footer {
+    border-top-color: #1e293b;
+  }
+  .codi-footer p {
+    color: #94a3b8;
+  }
+}
