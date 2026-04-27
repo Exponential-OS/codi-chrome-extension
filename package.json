@@ -7,10 +7,10 @@
   "homepage": "https://thewhyman.com",
   "repository": {
     "type": "git",
-    "url": "https://github.com/thewhyman/codi-chrome-extension"
+    "url": "https://github.com/Exponentional-OS/codi-chrome-extension"
   },
   "bugs": {
-    "url": "https://github.com/thewhyman/anand-career-os/issues"
+    "url": "https://github.com/Exponentional-OS/codi-chrome-extension/issues"
   },
   "scripts": {
     "lint:manifest": "node -e \"JSON.parse(require('fs').readFileSync('manifest.json','utf8')); console.log('manifest.json: valid JSON')\"",

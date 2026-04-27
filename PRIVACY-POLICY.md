@@ -56,7 +56,7 @@ Co-Dialectic requests the following Chrome permissions, each used only for its n
 
 ## Open-source verification
 
-Co-Dialectic is licensed under AGPL-3.0. The complete source code is published at [github.com/thewhyman/codi-chrome-extension](https://github.com/thewhyman/codi-chrome-extension) (placeholder; canonical repository link will be confirmed in the Chrome Web Store listing). You can audit every line of code that runs on your machine. If the code contradicts any claim in this privacy policy, that is a bug; please file an issue.
+Co-Dialectic is licensed under AGPL-3.0. The complete source code is published at [github.com/Exponentional-OS/codi-chrome-extension](https://github.com/Exponentional-OS/codi-chrome-extension). You can audit every line of code that runs on your machine. If the code contradicts any claim in this privacy policy, that is a bug; please file an issue.
 
 ## Changes to this policy
 
@@ -67,7 +67,7 @@ Material changes to this policy will be published as a new extension version wit
 For privacy-related questions, concerns, or to report a bug:
 
 - **Email:** privacy@thewhyman.com
-- **GitHub Issues:** [github.com/thewhyman/anand-career-os/issues](https://github.com/thewhyman/anand-career-os/issues) — tag with `chrome-extension` and `privacy`
+- **GitHub Issues:** [github.com/Exponentional-OS/codi-chrome-extension/issues](https://github.com/Exponentional-OS/codi-chrome-extension/issues) — tag with `privacy`
 - **Author:** Anand Vallamsetla — [thewhyman.com](https://thewhyman.com)
 
 ## Jurisdiction

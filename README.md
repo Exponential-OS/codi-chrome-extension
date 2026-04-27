@@ -62,4 +62,4 @@ Same conversation layer, different surface. Both are free and AGPL-3.0.
 
 ## Contributing
 
-Issues and pull requests welcome. The Co-Dialectic project tracks all surfaces (Chrome extension, IDE plug-in, future surfaces) at [github.com/thewhyman/anand-career-os](https://github.com/thewhyman/anand-career-os).
+Issues and pull requests welcome. The Co-Dialectic project tracks all surfaces (Chrome extension, IDE plug-in, future surfaces) at [github.com/Exponentional-OS/codi-chrome-extension](https://github.com/Exponentional-OS/codi-chrome-extension).
