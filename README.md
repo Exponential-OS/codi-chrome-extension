@@ -4,7 +4,7 @@
 
 Co-Dialectic activates as a transparent layer on top of ChatGPT, Claude.ai, Gemini, Perplexity, Poe, and other AI chat web apps. It sharpens vague prompts before you send, flags fabricated citations and high-risk factual claims before you trust them, and audits sycophancy markers in responses. All processing runs on-device when Chrome's built-in Prompt API is available; nothing leaves your machine.
 
-This is the browser-extension surface of the broader Co-Dialectic project — the same conversation layer that ships as a Claude Code / Cursor / Cowork plugin at [github.com/thewhyman/prompt-engineering-in-action](https://github.com/thewhyman/prompt-engineering-in-action).
+This is the browser-extension surface of the broader Co-Dialectic project — the same conversation layer that ships as a Claude Code / Cursor / Cowork plugin at [github.com/Exponential-OS/prompt-engineering-in-action](https://github.com/Exponential-OS/prompt-engineering-in-action).
 
 ## Status
 
@@ -46,7 +46,7 @@ After Chrome Web Store approval (target: shortly after first review cycle), inst
 Co-Dialectic also ships as a Claude Code / Cursor / Cowork plug-in for IDE / CLI runtimes:
 
 ```
-/plugin marketplace add thewhyman/agent-marketplace
+/plugin marketplace add Exponential-OS/agent-marketplace
 /plugin install co-dialectic@thewhyman
 ```
 
