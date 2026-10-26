@@ -144,11 +144,15 @@ You can later update screenshots with each version release.
 
 ## Promotional tile (optional, recommended)
 
-**440×280 PNG** — improves Web Store discovery and homepage placement. Reuse `co-dialectic-cover.png` from `~/anand-career-os/WIP/prompt-engineering-in-action-product/co-dialectic/04_ASSETS/`, resize via:
+**440×280 PNG** — improves Web Store discovery and homepage placement. Reuse the
+co-dialectic cover art and resize it:
 
 ```bash
-sips --resampleWidth 440 -Z 280 /Users/anandvallam/anand-career-os/WIP/prompt-engineering-in-action-product/co-dialectic/04_ASSETS/co-dialectic-cover.png --out /tmp/codi-promo-440x280.png
+sips --resampleWidth 440 -Z 280 <path-to>/co-dialectic-cover.png --out /tmp/codi-promo-440x280.png
 ```
+
+The committed `promo-440x280.png` in this repo is the output of that command, so this is a
+regeneration note rather than a build step.
 
 ---
 
